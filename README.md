@@ -5,7 +5,7 @@ This group project uses a modified version of the REFIT electricity consumption 
 Group members :
 Ruben BUENO
 Toscane CARRO
-Gabriel FRANCOIS
+Gabriel FRANÇOIS
 Clément GAUBERT
 Alice LATASTE
 Soline MIGNOT
