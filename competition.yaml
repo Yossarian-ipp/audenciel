@@ -8,26 +8,26 @@ terms: terms.md
 
 pages:
 - title: Overview
-  file: overview.md
+  file: pages/overview.md
 - title: How do I start?
-  file: how-do-i-start.md
+  file: pages/how-do-i-start.md
 - title: Submission
-  file: submission.md
+  file: pages/submission.md
 - title: Evaluation and scoring
-  file: evaluation-and-scoring.md
+  file: pages/evaluation-and-scoring.md
 - title: FAQ
-  file: FAQ.md
+  file: pages/FAQ.md
 - title: About
-  file: about.md
+  file: pages/about.md
 
 tasks:
 - index: 0
-  name: Anomaly detection and classification of electricity consumption using only information from the electricity meter 
-  description: Audensiel / EcoSmartGrid data challenge
-  reference_data: ground_truth_public.zip 
-  input_data: input_data_public.zip
-  scoring_program: scoring_program.zip
-  ingestion_program: ingestion_program.zip
+  name: Developement Task
+  description: 'Tune models with training data, test against examples contained in public test data'
+  input_data: dev_phase/input_data/
+  reference_data: dev_phase/reference_data/
+  ingestion_program: ingestion_program/
+  scoring_program: scoring_program/
 
 solutions: []
 
