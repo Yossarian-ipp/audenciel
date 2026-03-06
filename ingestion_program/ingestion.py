@@ -21,6 +21,7 @@ def get_train_data(data_dir):
     training_dir = data_dir / "train"
     X_train = pd.read_csv(training_dir / "train_features.csv")
     y_train = pd.read_csv(training_dir / "train_labels.csv")
+    y_train = y_train.squeeze()
     return X_train, y_train
 
 def get_model_size_mb(model):
